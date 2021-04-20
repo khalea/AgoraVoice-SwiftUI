@@ -10,7 +10,7 @@ struct CallView: View {
                 .bold()
             Spacer()
             AgoraRep(isMuted: $isMuted)
-                .frame(width: 0, height: 0, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                .frame(width: 0, height: 0, alignment: .center)
             HStack {
                 Image(systemName: "mic.circle.fill")
                     .font(.system(size: 64.0))
