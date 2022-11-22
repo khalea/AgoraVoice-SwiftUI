@@ -12,7 +12,6 @@
 		001547CF292D5292004D6FCC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 001547CE292D5292004D6FCC /* Preview Assets.xcassets */; };
 		001547DB292D5314004D6FCC /* AgoraRep.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001547D6292D5314004D6FCC /* AgoraRep.swift */; };
 		001547DC292D5314004D6FCC /* AgoraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001547D7292D5314004D6FCC /* AgoraViewController.swift */; };
-		001547DD292D5314004D6FCC /* AgoraVoice_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001547D8292D5314004D6FCC /* AgoraVoice_SwiftUIApp.swift */; };
 		001547DE292D5314004D6FCC /* CallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001547D9292D5314004D6FCC /* CallView.swift */; };
 		001547E0292D5328004D6FCC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001547DF292D5328004D6FCC /* ContentView.swift */; };
 		007EF897292D56EB0088B2D5 /* RtcBasic in Frameworks */ = {isa = PBXBuildFile; productRef = 007EF896292D56EB0088B2D5 /* RtcBasic */; };
@@ -25,7 +24,6 @@
 		001547CE292D5292004D6FCC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		001547D6292D5314004D6FCC /* AgoraRep.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AgoraRep.swift; sourceTree = "<group>"; };
 		001547D7292D5314004D6FCC /* AgoraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AgoraViewController.swift; sourceTree = "<group>"; };
-		001547D8292D5314004D6FCC /* AgoraVoice_SwiftUIApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AgoraVoice_SwiftUIApp.swift; sourceTree = "<group>"; };
 		001547D9292D5314004D6FCC /* CallView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallView.swift; sourceTree = "<group>"; };
 		001547DF292D5328004D6FCC /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -65,7 +63,6 @@
 				001547C7292D5291004D6FCC /* AgoraVoice_SwiftUIApp.swift */,
 				001547D6292D5314004D6FCC /* AgoraRep.swift */,
 				001547D7292D5314004D6FCC /* AgoraViewController.swift */,
-				001547D8292D5314004D6FCC /* AgoraVoice_SwiftUIApp.swift */,
 				001547D9292D5314004D6FCC /* CallView.swift */,
 				001547CB292D5292004D6FCC /* Assets.xcassets */,
 				001547CD292D5292004D6FCC /* Preview Content */,
@@ -162,7 +159,6 @@
 				001547E0292D5328004D6FCC /* ContentView.swift in Sources */,
 				001547DB292D5314004D6FCC /* AgoraRep.swift in Sources */,
 				001547DC292D5314004D6FCC /* AgoraViewController.swift in Sources */,
-				001547DD292D5314004D6FCC /* AgoraVoice_SwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
