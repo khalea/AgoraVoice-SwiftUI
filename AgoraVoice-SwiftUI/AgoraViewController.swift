@@ -35,6 +35,6 @@ class AgoraViewController: UIViewController {
     }
     
     func didClickMuteButton(isMuted: Bool) {
-        isMuted ? (agoraKit?.muteLocalAudioStream(true)) : (agoraKit?.muteLocalAudioStream(false))
+        agoraKit?.muteLocalAudioStream(isMuted)
     }
 }

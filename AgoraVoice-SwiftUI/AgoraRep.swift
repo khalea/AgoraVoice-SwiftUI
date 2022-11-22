@@ -13,7 +13,7 @@ struct AgoraRep: UIViewControllerRepresentable {
     }
     
     func updateUIViewController(_ uiViewController: AgoraViewController, context: Context) {
-        isMuted ? (uiViewController.didClickMuteButton(isMuted: true)) : (uiViewController.didClickMuteButton(isMuted: false))
+        uiViewController.didClickMuteButton(isMuted: isMuted)
     }
     
     
