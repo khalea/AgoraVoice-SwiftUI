@@ -17,7 +17,7 @@ struct CallView: View {
                     .foregroundColor(isMuted ? Color.yellow : Color.blue)
                     .padding()
                     .onTapGesture {
-                        isMuted ? (isMuted = false) : (isMuted = true)
+                        isMuted.toggle()
                     }
                 
                 Spacer()

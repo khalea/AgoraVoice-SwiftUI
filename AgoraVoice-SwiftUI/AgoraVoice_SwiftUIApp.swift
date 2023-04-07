@@ -1,7 +1,7 @@
 import SwiftUI
 
 @main
-struct AgoraSwiftUIApp: App {
+struct AgoraVoice_SwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
